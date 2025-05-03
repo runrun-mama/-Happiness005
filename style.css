@@ -1,0 +1,100 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin: 0 auto; /* 上下のmarginも0に設定 */
+    padding-top: 0; 
+    max-width: 800px; /* 必要に応じて最大幅を設定 */
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center; /* body内のテキストを中央寄せ */
+    overflow-x: hidden; /* 横スクロールを防ぐ */
+}
+
+header {
+    background-color: white;
+    padding: 0;
+    text-align: center; /* ヘッダー内のテキストを中央寄せ */
+    border-radius: 5px;
+    margin-bottom: 0;
+    margin-top: 0;
+    display: flex; /* 画像を内包するheaderをflexboxにする */
+    justify-content: center; /* 画像を中央に配置 */
+    align-items: center; /* 画像を垂直方向中央に配置 */
+}
+
+header img {
+    display: block; /* インライン要素であるimgをブロック要素にする */
+    width: 100%; /* 親要素に合わせて幅を調整 */
+    height: auto; /* 高さも自動調整 */
+}
+
+main {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+section {
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+    text-align: center; /* section内のテキストを中央寄せ */ 
+    margin-top: 15px; 
+}
+
+section:last-child {
+    border-bottom: none;
+}
+
+h1, h2 {
+    color: #333;
+    margin-top: 0;
+    text-align: center; /* h1, h2要素を中央寄せ */
+}
+
+p {
+    text-align: center; /* p要素を中央寄せ */
+    line-height: 1.4; /* 既存のスタイル */
+    margin-bottom: 5px; /* ← 下の余白を 10px に設定 (初期値より小さい値) */
+}
+
+footer {
+    text-align: center;
+    color: #777;
+    font-size: 0.9em;
+    padding-top: 10px;
+}
+
+ruby {
+    text-align: center; /* ruby要素を中央寄せ */
+}
+
+rt {
+    text-align: center; /* rubyの子要素rtを中央寄せ */
+}
+
+.emphasized-text {
+    font-weight: bold;
+    font-size: 1.2em; 
+    color: #0abab5;
+}
+
+.emphasized-red {
+    color: red;
+}
+
+.emphasized-orange {
+    font-weight: bold;
+    color: orange;
+}
+
+.emphasized-red2 {
+    font-weight: bold;
+    color: red;
+}
+
+p {
+  text-align: center; /* 既存のスタイル */
+  line-height: 1.0; /* ← 行間を少し狭くする */
+}
